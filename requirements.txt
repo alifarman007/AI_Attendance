@@ -1,0 +1,24 @@
+# AI Attendance System Requirements
+
+# Core ML and Computer Vision
+opencv-python>=4.8.0
+numpy>=1.21.0
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# Face Recognition Dependencies  
+faiss-cpu>=1.7.4
+scikit-image>=0.21.0
+
+# Data Processing and Excel
+pandas>=1.5.0
+openpyxl>=3.1.0
+
+# Logging and Utilities
+colorlog>=6.7.0
+
+# Web Interface
+gradio>=4.0.0
+nicegui>=2.0.0
+flask>=2.3.0
+flask-cors>=4.0.0

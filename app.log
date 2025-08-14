@@ -1,0 +1,729 @@
+2025-08-13 14:26:21 - __main__ - INFO - Initializing AI Attendance System...
+2025-08-13 14:26:21 - __main__ - INFO - Loading face recognition models...
+2025-08-13 14:26:21 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 14:26:21 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 14:26:21 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 14:26:22 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 14:26:22 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 14:26:22 - face_recognition - INFO - Initializing face database...
+2025-08-13 14:26:22 - face_recognition - INFO - No existing database found, will build from faces directory
+2025-08-13 14:26:22 - face_recognition - INFO - Building face database from images...
+2025-08-13 14:26:22 - face_recognition - INFO - Added Sohel to database
+2025-08-13 14:26:22 - face_recognition - INFO - Added Mahmuda to database
+2025-08-13 14:26:22 - face_recognition - INFO - Added Rifat to database
+2025-08-13 14:26:22 - face_recognition - INFO - Added Eshtiaq to database
+2025-08-13 14:26:23 - face_recognition - INFO - Added Sadhon to database
+2025-08-13 14:26:23 - face_recognition - INFO - Added Alif to database
+2025-08-13 14:26:23 - face_recognition - INFO - Added Fatiha to database
+2025-08-13 14:26:23 - face_recognition - INFO - Added Shanchita to database
+2025-08-13 14:26:23 - face_recognition - INFO - Added Anika to database
+2025-08-13 14:26:23 - face_recognition - INFO - Added Shanta to database
+2025-08-13 14:26:24 - face_recognition - INFO - Added Ridoy to database
+2025-08-13 14:26:24 - face_recognition - INFO - Added Rabiul to database
+2025-08-13 14:26:24 - face_recognition - INFO - Added Obaidul to database
+2025-08-13 14:26:24 - face_recognition - INFO - Added Binoy to database
+2025-08-13 14:26:24 - face_recognition - INFO - Added Shamol to database
+2025-08-13 14:26:24 - face_recognition - INFO - Added Tokon to database
+2025-08-13 14:26:24 - face_recognition - INFO - Added 16 faces to database
+2025-08-13 14:26:24 - root - INFO - Face database saved with 16 faces
+2025-08-13 14:26:24 - __main__ - INFO - Setting up attendance logger...
+2025-08-13 14:26:24 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 14:26:24 - __main__ - INFO - Connecting to camera 0...
+2025-08-13 14:26:25 - __main__ - INFO - System initialized successfully!
+2025-08-13 14:26:25 - __main__ - INFO - Starting attendance monitoring...
+2025-08-13 14:26:25 - __main__ - INFO - Press 'q' to quit, 'a' to add person, 's' for statistics
+2025-08-13 14:26:25 - __main__ - INFO - Database loaded: 16 faces, 16 unique people
+2025-08-13 14:26:34 - attendance_logger - INFO - Logged attendance for Alif at 14:26:34
+2025-08-13 14:26:34 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-13 14:26:34 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Alif
+2025-08-13 14:26:48 - attendance_logger - INFO - Logged attendance for Binoy at 14:26:48
+2025-08-13 14:26:48 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-13 14:26:48 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Binoy
+2025-08-13 14:27:20 - __main__ - INFO - Quit requested by user
+2025-08-13 14:27:20 - __main__ - INFO - Cleaning up resources...
+2025-08-13 14:27:20 - root - INFO - Face database saved with 16 faces
+2025-08-13 14:27:20 - face_recognition - INFO - Face database saved successfully
+2025-08-13 14:27:20 - __main__ - INFO - Cleanup completed
+2025-08-13 14:29:13 - __main__ - INFO - Initializing AI Attendance System...
+2025-08-13 14:29:13 - __main__ - INFO - Loading face recognition models...
+2025-08-13 14:29:13 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 14:29:13 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 14:29:13 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 14:29:13 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 14:29:13 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 14:29:13 - face_recognition - INFO - Initializing face database...
+2025-08-13 14:29:13 - root - INFO - Loaded face database with 16 faces
+2025-08-13 14:29:13 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 14:29:13 - __main__ - INFO - Setting up attendance logger...
+2025-08-13 14:29:13 - attendance_logger - INFO - Loaded 2 attendance records from today
+2025-08-13 14:29:13 - __main__ - INFO - Connecting to camera 0...
+2025-08-13 14:29:14 - __main__ - INFO - System initialized successfully!
+2025-08-13 14:29:14 - __main__ - INFO - Starting attendance monitoring...
+2025-08-13 14:29:14 - __main__ - INFO - Press 'q' to quit, 'a' to add person, 's' for statistics
+2025-08-13 14:29:14 - __main__ - INFO - Database loaded: 16 faces, 16 unique people
+2025-08-13 14:29:16 - __main__ - INFO - Quit requested by user
+2025-08-13 14:29:16 - __main__ - INFO - Cleaning up resources...
+2025-08-13 14:29:16 - root - INFO - Face database saved with 16 faces
+2025-08-13 14:29:16 - face_recognition - INFO - Face database saved successfully
+2025-08-13 14:29:16 - __main__ - INFO - Cleanup completed
+2025-08-13 14:29:31 - __main__ - INFO - Initializing AI Attendance System...
+2025-08-13 14:29:31 - __main__ - INFO - Loading face recognition models...
+2025-08-13 14:29:31 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 14:29:31 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 14:29:31 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 14:29:31 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 14:29:31 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 14:29:31 - face_recognition - INFO - Initializing face database...
+2025-08-13 14:29:31 - root - INFO - Loaded face database with 16 faces
+2025-08-13 14:29:31 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 14:29:31 - __main__ - INFO - Setting up attendance logger...
+2025-08-13 14:29:31 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 14:29:31 - __main__ - INFO - Connecting to camera 0...
+2025-08-13 14:29:32 - __main__ - INFO - System initialized successfully!
+2025-08-13 14:29:32 - __main__ - INFO - Starting attendance monitoring...
+2025-08-13 14:29:32 - __main__ - INFO - Press 'q' to quit, 'a' to add person, 's' for statistics
+2025-08-13 14:29:32 - __main__ - INFO - Database loaded: 16 faces, 16 unique people
+2025-08-13 14:29:39 - attendance_logger - INFO - Logged attendance for Alif at 14:29:39
+2025-08-13 14:29:39 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-13 14:29:39 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Alif
+2025-08-13 14:29:45 - attendance_logger - INFO - Logged attendance for Binoy at 14:29:45
+2025-08-13 14:29:45 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-13 14:29:45 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Binoy
+2025-08-13 14:29:57 - attendance_logger - INFO - Logged attendance for Fatiha at 14:29:57
+2025-08-13 14:29:57 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-13 14:29:57 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Fatiha
+2025-08-13 14:30:03 - __main__ - INFO - Quit requested by user
+2025-08-13 14:30:03 - __main__ - INFO - Cleaning up resources...
+2025-08-13 14:30:03 - root - INFO - Face database saved with 16 faces
+2025-08-13 14:30:03 - face_recognition - INFO - Face database saved successfully
+2025-08-13 14:30:03 - __main__ - INFO - Cleanup completed
+2025-08-13 15:55:04 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 15:55:04 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 15:55:04 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 15:55:04 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 15:55:04 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 15:55:04 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 15:55:04 - face_recognition - INFO - Initializing face database...
+2025-08-13 15:55:04 - root - INFO - Loaded face database with 16 faces
+2025-08-13 15:55:04 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 15:55:04 - attendance_logger - INFO - Loaded 3 attendance records from today
+2025-08-13 15:55:04 - __main__ - INFO - Components initialized successfully!
+2025-08-13 15:55:04 - root - ERROR - Error launching interface: Dataframe.__init__() got an unexpected keyword argument 'height'
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 521, in main
+    app = create_interface()
+          ^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 344, in create_interface
+    database_info = gr.DataFrame(
+                    ^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/venv/lib/python3.12/site-packages/gradio/component_meta.py", line 188, in wrapper
+    return fn(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+TypeError: Dataframe.__init__() got an unexpected keyword argument 'height'
+2025-08-13 15:55:05 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 15:57:48 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 15:57:48 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 15:57:48 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 15:57:48 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 15:57:48 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 15:57:48 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 15:57:48 - face_recognition - INFO - Initializing face database...
+2025-08-13 15:57:48 - root - INFO - Loaded face database with 16 faces
+2025-08-13 15:57:48 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 15:57:48 - attendance_logger - INFO - Loaded 3 attendance records from today
+2025-08-13 15:57:48 - __main__ - INFO - Components initialized successfully!
+2025-08-13 15:57:48 - root - ERROR - Error launching interface: EventListener._setup.<locals>.event_trigger() got an unexpected keyword argument 'every'
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 517, in main
+    app = create_interface()
+          ^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 458, in create_interface
+    webcam_feed.change(
+TypeError: EventListener._setup.<locals>.event_trigger() got an unexpected keyword argument 'every'
+2025-08-13 15:57:49 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 15:58:13 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 15:58:13 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 15:58:13 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 15:58:13 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 15:58:13 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 15:58:13 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 15:58:13 - face_recognition - INFO - Initializing face database...
+2025-08-13 15:58:13 - root - INFO - Loaded face database with 16 faces
+2025-08-13 15:58:13 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 15:58:13 - attendance_logger - INFO - Loaded 3 attendance records from today
+2025-08-13 15:58:13 - __main__ - INFO - Components initialized successfully!
+2025-08-13 15:58:13 - root - ERROR - Error launching interface: cannot access local variable 'update_feed' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 510, in main
+    app = create_interface()
+          ^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 450, in create_interface
+    fn=update_feed,
+       ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'update_feed' where it is not associated with a value
+2025-08-13 15:58:14 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 15:58:29 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 15:58:29 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 15:58:29 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 15:58:29 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 15:58:30 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 15:58:30 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 15:58:30 - face_recognition - INFO - Initializing face database...
+2025-08-13 15:58:30 - root - INFO - Loaded face database with 16 faces
+2025-08-13 15:58:30 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 15:58:30 - attendance_logger - INFO - Loaded 3 attendance records from today
+2025-08-13 15:58:30 - __main__ - INFO - Components initialized successfully!
+2025-08-13 15:58:30 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-13 15:58:30 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-08-13 15:58:31 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 15:59:38 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 15:59:38 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 15:59:38 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 15:59:38 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 15:59:39 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 15:59:39 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 15:59:39 - face_recognition - INFO - Initializing face database...
+2025-08-13 15:59:39 - root - INFO - Loaded face database with 16 faces
+2025-08-13 15:59:39 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 15:59:39 - attendance_logger - INFO - Loaded 3 attendance records from today
+2025-08-13 15:59:39 - __main__ - INFO - Components initialized successfully!
+2025-08-13 15:59:39 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-13 15:59:39 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-08-13 15:59:40 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 16:06:33 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 16:06:33 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:06:33 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:06:33 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:06:34 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:06:34 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:06:34 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:06:34 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:06:34 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:06:34 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:06:34 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:06:34 - root - ERROR - Error launching interface: Cannot find empty port in range: 7860-7860. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 534, in main
+    app.launch(
+  File "/Data/Attendance AI/AI_Attendance/venv/lib/python3.12/site-packages/gradio/blocks.py", line 2770, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/venv/lib/python3.12/site-packages/gradio/http_server.py", line 156, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7860-7860. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2025-08-13 16:06:35 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 16:06:52 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 16:06:52 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:06:52 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:06:52 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:06:53 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:06:53 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:06:53 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:06:53 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:06:53 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:06:53 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:06:53 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:06:53 - httpx - INFO - HTTP Request: GET http://localhost:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-13 16:06:53 - httpx - INFO - HTTP Request: HEAD http://localhost:7861/ "HTTP/1.1 200 OK"
+2025-08-13 16:06:54 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 16:08:46 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 16:08:46 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:08:46 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:08:46 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:08:46 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:08:46 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:08:46 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:08:46 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:08:46 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:08:46 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:08:46 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:08:46 - httpx - INFO - HTTP Request: GET http://localhost:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-13 16:08:46 - httpx - INFO - HTTP Request: HEAD http://localhost:7861/ "HTTP/1.1 200 OK"
+2025-08-13 16:08:47 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 16:08:51 - __main__ - INFO - Webcam 0 started in streaming mode
+2025-08-13 16:13:30 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 16:13:30 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:13:30 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:13:30 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:13:31 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:13:31 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:13:31 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:13:31 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:13:31 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:13:31 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:13:31 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:13:31 - root - ERROR - Error launching interface: name 'webcam_status' is not defined
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 556, in main
+    app = create_interface()
+          ^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 517, in create_interface
+    outputs=[webcam_feed, webcam_status]
+                          ^^^^^^^^^^^^^
+NameError: name 'webcam_status' is not defined
+2025-08-13 16:13:32 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 16:13:43 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 16:13:43 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:13:44 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:13:44 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:13:44 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:13:44 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:13:44 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:13:44 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:13:44 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:13:44 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:13:44 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:13:44 - httpx - INFO - HTTP Request: GET http://localhost:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-13 16:13:44 - httpx - INFO - HTTP Request: HEAD http://localhost:7861/ "HTTP/1.1 200 OK"
+2025-08-13 16:13:45 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 16:14:15 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 16:14:15 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:14:15 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:14:15 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:14:15 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:14:15 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:14:15 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:14:15 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:14:15 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:14:15 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:14:15 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:14:16 - httpx - INFO - HTTP Request: GET http://localhost:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-13 16:14:16 - httpx - INFO - HTTP Request: HEAD http://localhost:7861/ "HTTP/1.1 200 OK"
+2025-08-13 16:14:17 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 16:14:25 - __main__ - INFO - Webcam 0 started in streaming mode
+2025-08-13 16:25:23 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 16:25:23 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:25:23 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:25:23 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:25:23 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:25:23 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:25:23 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:25:23 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:25:23 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:25:23 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:25:23 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:25:23 - root - ERROR - Error launching interface: 'Image' object has no attribute 'every'
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 639, in main
+    app = create_interface()
+          ^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/interface.py", line 584, in create_interface
+    webcam_feed.every(
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'Image' object has no attribute 'every'
+2025-08-13 16:25:24 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 16:28:19 - __main__ - INFO - Initializing components for Gradio interface...
+2025-08-13 16:28:19 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:28:19 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:28:19 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:28:19 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:28:19 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:28:19 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:28:19 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:28:19 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:28:19 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:28:19 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:28:20 - httpx - INFO - HTTP Request: GET http://localhost:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-13 16:28:20 - httpx - INFO - HTTP Request: HEAD http://localhost:7861/ "HTTP/1.1 200 OK"
+2025-08-13 16:28:21 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-13 16:28:58 - __main__ - INFO - Started continuous streaming updates
+2025-08-13 16:28:59 - __main__ - INFO - Webcam 0 started with streaming
+2025-08-13 16:29:29 - __main__ - INFO - Stopped continuous streaming updates
+2025-08-13 16:29:29 - __main__ - INFO - Webcam streaming loop ended
+2025-08-13 16:29:34 - __main__ - INFO - Started continuous streaming updates
+2025-08-13 16:29:34 - __main__ - INFO - Webcam 0 started with streaming
+2025-08-13 16:37:17 - __main__ - INFO - Initializing components for NiceGUI interface...
+2025-08-13 16:37:17 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:37:17 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:37:17 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:37:17 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:37:17 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:37:17 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:37:17 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:37:17 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:37:17 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:37:17 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:37:17 - root - ERROR - Error launching application: no running event loop
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/nicegui_interface.py", line 545, in main
+    app_instance = create_nicegui_app()
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/nicegui_interface.py", line 511, in create_nicegui_app
+    asyncio.create_task(attendance_app.update_attendance_table())
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 417, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-08-13 16:37:49 - __main__ - INFO - Initializing components for NiceGUI interface...
+2025-08-13 16:37:49 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:37:49 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:37:49 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:37:50 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:37:50 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:37:50 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:37:50 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:37:50 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:37:50 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:37:50 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:39:34 - __main__ - INFO - Initializing components for NiceGUI interface...
+2025-08-13 16:39:34 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:39:34 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:39:34 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:39:34 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:39:34 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:39:34 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:39:34 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:39:34 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:39:34 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:39:34 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:39:39 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:39:45 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:05 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:07 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:09 - __main__ - INFO - Live streaming - 156 frames, 0 attendance records
+2025-08-13 16:40:10 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:12 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:13 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:15 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:16 - __main__ - INFO - Live streaming - 124 frames, 0 attendance records
+2025-08-13 16:40:17 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:19 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:35 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:40:39 - __main__ - INFO - Initializing components for NiceGUI interface...
+2025-08-13 16:40:39 - face_recognition - INFO - Initializing face detection model...
+2025-08-13 16:40:39 - face_recognition - INFO - Initializing face recognition model...
+2025-08-13 16:40:39 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-13 16:40:40 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-13 16:40:40 - face_recognition - INFO - Models initialized successfully!
+2025-08-13 16:40:40 - face_recognition - INFO - Initializing face database...
+2025-08-13 16:40:40 - root - INFO - Loaded face database with 16 faces
+2025-08-13 16:40:40 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-13 16:40:40 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-13 16:40:40 - __main__ - INFO - Components initialized successfully!
+2025-08-13 16:40:44 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:40:49 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:41:12 - __main__ - INFO - Camera stopped
+2025-08-13 16:41:12 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:41:12 - __main__ - INFO - Video streaming loop ended
+2025-08-13 16:41:13 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:41:15 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:41:25 - __main__ - INFO - Started camera 0 with live streaming
+2025-08-13 16:41:43 - __main__ - INFO - Live streaming - 136 frames, 0 attendance records
+2025-08-13 16:41:46 - __main__ - INFO - Live streaming - 134 frames, 0 attendance records
+2025-08-13 16:41:56 - __main__ - INFO - Live streaming - 121 frames, 0 attendance records
+2025-08-13 16:42:14 - __main__ - INFO - Live streaming - 258 frames, 0 attendance records
+2025-08-13 16:42:16 - __main__ - INFO - Live streaming - 256 frames, 0 attendance records
+2025-08-13 16:42:26 - __main__ - INFO - Live streaming - 243 frames, 0 attendance records
+2025-08-13 16:42:44 - __main__ - INFO - Live streaming - 379 frames, 0 attendance records
+2025-08-13 16:42:46 - __main__ - INFO - Live streaming - 378 frames, 0 attendance records
+2025-08-13 16:42:56 - __main__ - INFO - Live streaming - 364 frames, 0 attendance records
+2025-08-13 16:43:14 - __main__ - INFO - Live streaming - 501 frames, 0 attendance records
+2025-08-13 16:43:16 - __main__ - INFO - Live streaming - 499 frames, 0 attendance records
+2025-08-13 16:43:26 - __main__ - INFO - Live streaming - 485 frames, 0 attendance records
+2025-08-13 16:43:44 - __main__ - INFO - Live streaming - 620 frames, 0 attendance records
+2025-08-13 16:43:46 - __main__ - INFO - Live streaming - 617 frames, 0 attendance records
+2025-08-13 16:43:56 - __main__ - INFO - Live streaming - 602 frames, 0 attendance records
+2025-08-13 16:44:14 - __main__ - INFO - Live streaming - 727 frames, 0 attendance records
+2025-08-13 16:44:16 - __main__ - INFO - Live streaming - 724 frames, 0 attendance records
+2025-08-13 16:44:26 - __main__ - INFO - Live streaming - 710 frames, 0 attendance records
+2025-08-13 16:44:44 - __main__ - INFO - Live streaming - 844 frames, 0 attendance records
+2025-08-13 16:44:47 - __main__ - INFO - Live streaming - 842 frames, 0 attendance records
+2025-08-13 16:44:57 - __main__ - INFO - Live streaming - 828 frames, 0 attendance records
+2025-08-13 16:45:14 - __main__ - INFO - Live streaming - 962 frames, 0 attendance records
+2025-08-13 16:45:17 - __main__ - INFO - Live streaming - 960 frames, 0 attendance records
+2025-08-13 16:45:27 - __main__ - INFO - Live streaming - 947 frames, 0 attendance records
+2025-08-13 16:45:44 - __main__ - INFO - Live streaming - 1080 frames, 0 attendance records
+2025-08-13 16:45:47 - __main__ - INFO - Live streaming - 1078 frames, 0 attendance records
+2025-08-13 16:45:57 - __main__ - INFO - Live streaming - 1065 frames, 0 attendance records
+2025-08-13 16:46:14 - __main__ - INFO - Live streaming - 1191 frames, 0 attendance records
+2025-08-13 16:46:17 - __main__ - INFO - Live streaming - 1189 frames, 0 attendance records
+2025-08-13 16:46:27 - __main__ - INFO - Live streaming - 1172 frames, 0 attendance records
+2025-08-13 16:46:44 - __main__ - INFO - Live streaming - 1296 frames, 0 attendance records
+2025-08-13 16:46:47 - __main__ - INFO - Live streaming - 1294 frames, 0 attendance records
+2025-08-13 16:46:57 - __main__ - INFO - Live streaming - 1280 frames, 0 attendance records
+2025-08-13 16:47:15 - __main__ - INFO - Live streaming - 1414 frames, 0 attendance records
+2025-08-13 16:47:17 - __main__ - INFO - Live streaming - 1412 frames, 0 attendance records
+2025-08-13 16:47:27 - __main__ - INFO - Live streaming - 1399 frames, 0 attendance records
+2025-08-13 16:47:45 - __main__ - INFO - Live streaming - 1534 frames, 0 attendance records
+2025-08-13 16:47:47 - __main__ - INFO - Live streaming - 1532 frames, 0 attendance records
+2025-08-13 16:47:57 - __main__ - INFO - Live streaming - 1520 frames, 0 attendance records
+2025-08-13 16:48:15 - __main__ - INFO - Live streaming - 1655 frames, 0 attendance records
+2025-08-13 16:48:17 - __main__ - INFO - Live streaming - 1654 frames, 0 attendance records
+2025-08-13 16:48:27 - __main__ - INFO - Live streaming - 1642 frames, 0 attendance records
+2025-08-13 16:48:45 - __main__ - INFO - Live streaming - 1778 frames, 0 attendance records
+2025-08-13 16:48:47 - __main__ - INFO - Live streaming - 1777 frames, 0 attendance records
+2025-08-13 16:48:58 - __main__ - INFO - Live streaming - 1763 frames, 0 attendance records
+2025-08-13 16:49:15 - __main__ - INFO - Live streaming - 1898 frames, 0 attendance records
+2025-08-13 16:49:17 - __main__ - INFO - Live streaming - 1897 frames, 0 attendance records
+2025-08-13 16:49:28 - __main__ - INFO - Live streaming - 1886 frames, 0 attendance records
+2025-08-13 16:49:45 - __main__ - INFO - Live streaming - 2020 frames, 0 attendance records
+2025-08-13 16:49:48 - __main__ - INFO - Live streaming - 2019 frames, 0 attendance records
+2025-08-13 16:49:58 - __main__ - INFO - Live streaming - 2007 frames, 0 attendance records
+2025-08-13 16:50:15 - __main__ - INFO - Live streaming - 2142 frames, 0 attendance records
+2025-08-13 16:50:18 - __main__ - INFO - Live streaming - 2141 frames, 0 attendance records
+2025-08-14 11:02:30 - __main__ - INFO - Initializing AI Attendance System...
+2025-08-14 11:02:30 - __main__ - INFO - Loading face recognition models...
+2025-08-14 11:02:30 - face_recognition - INFO - Initializing face detection model...
+2025-08-14 11:02:30 - face_recognition - INFO - Initializing face recognition model...
+2025-08-14 11:02:30 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-14 11:02:30 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-14 11:02:30 - face_recognition - INFO - Models initialized successfully!
+2025-08-14 11:02:30 - face_recognition - INFO - Initializing face database...
+2025-08-14 11:02:30 - root - INFO - Loaded face database with 16 faces
+2025-08-14 11:02:30 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-14 11:02:30 - __main__ - INFO - Setting up attendance logger...
+2025-08-14 11:02:30 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-14 11:02:30 - __main__ - INFO - Connecting to camera 0...
+2025-08-14 11:02:31 - __main__ - INFO - System initialized successfully!
+2025-08-14 11:02:31 - __main__ - INFO - Starting attendance monitoring...
+2025-08-14 11:02:31 - __main__ - INFO - Press 'q' to quit, 'a' to add person, 's' for statistics
+2025-08-14 11:02:31 - __main__ - INFO - Database loaded: 16 faces, 16 unique people
+2025-08-14 11:02:41 - attendance_logger - INFO - Logged attendance for Alif at 11:02:41
+2025-08-14 11:02:41 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-14 11:02:41 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Alif
+2025-08-14 11:02:50 - __main__ - INFO - Quit requested by user
+2025-08-14 11:02:50 - __main__ - INFO - Cleaning up resources...
+2025-08-14 11:02:50 - root - INFO - Face database saved with 16 faces
+2025-08-14 11:02:50 - face_recognition - INFO - Face database saved successfully
+2025-08-14 11:02:50 - __main__ - INFO - Cleanup completed
+2025-08-14 11:26:41 - main - INFO - Initializing AI Attendance System...
+2025-08-14 11:26:41 - main - INFO - Loading face recognition models...
+2025-08-14 11:26:41 - face_recognition - INFO - Initializing face detection model...
+2025-08-14 11:26:41 - face_recognition - INFO - Initializing face recognition model...
+2025-08-14 11:26:41 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-14 11:26:41 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-14 11:26:41 - face_recognition - INFO - Models initialized successfully!
+2025-08-14 11:26:41 - face_recognition - INFO - Initializing face database...
+2025-08-14 11:26:41 - root - INFO - Loaded face database with 16 faces
+2025-08-14 11:26:41 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-14 11:26:41 - main - INFO - Setting up attendance logger...
+2025-08-14 11:26:41 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-14 11:26:41 - main - INFO - Connecting to camera 0...
+2025-08-14 11:26:42 - main - INFO - System initialized successfully!
+2025-08-14 11:26:42 - __main__ - INFO - Gradio interface initialized successfully
+2025-08-14 11:26:42 - root - ERROR - Error starting Gradio interface: module 'cv2' has no attribute 'zeros'
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/Gradio_interface.py", line 392, in main
+    demo, interface_obj = create_gradio_interface()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/Gradio_interface.py", line 322, in create_gradio_interface
+    value=interface.get_webcam_frame(),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/Gradio_interface.py", line 187, in get_webcam_frame
+    placeholder = cv2.zeros((480, 640, 3), dtype=cv2.uint8)
+                  ^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'zeros'
+2025-08-14 11:26:43 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-14 11:27:18 - main - INFO - Initializing AI Attendance System...
+2025-08-14 11:27:18 - main - INFO - Loading face recognition models...
+2025-08-14 11:27:18 - face_recognition - INFO - Initializing face detection model...
+2025-08-14 11:27:18 - face_recognition - INFO - Initializing face recognition model...
+2025-08-14 11:27:18 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-14 11:27:19 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-14 11:27:19 - face_recognition - INFO - Models initialized successfully!
+2025-08-14 11:27:19 - face_recognition - INFO - Initializing face database...
+2025-08-14 11:27:19 - root - INFO - Loaded face database with 16 faces
+2025-08-14 11:27:19 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-14 11:27:19 - main - INFO - Setting up attendance logger...
+2025-08-14 11:27:19 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-14 11:27:19 - main - INFO - Connecting to camera 0...
+2025-08-14 11:27:19 - main - INFO - System initialized successfully!
+2025-08-14 11:27:19 - __main__ - INFO - Gradio interface initialized successfully
+2025-08-14 11:27:19 - root - ERROR - Error starting Gradio interface: name 'np' is not defined
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/Gradio_interface.py", line 392, in main
+    demo, interface_obj = create_gradio_interface()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/Gradio_interface.py", line 322, in create_gradio_interface
+    value=interface.get_webcam_frame(),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/Gradio_interface.py", line 187, in get_webcam_frame
+    placeholder = np.zeros((480, 640, 3), dtype=np.uint8)
+                  ^^
+NameError: name 'np' is not defined
+2025-08-14 11:27:20 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-14 11:27:48 - main - INFO - Initializing AI Attendance System...
+2025-08-14 11:27:48 - main - INFO - Loading face recognition models...
+2025-08-14 11:27:48 - face_recognition - INFO - Initializing face detection model...
+2025-08-14 11:27:48 - face_recognition - INFO - Initializing face recognition model...
+2025-08-14 11:27:48 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-14 11:27:49 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-14 11:27:49 - face_recognition - INFO - Models initialized successfully!
+2025-08-14 11:27:49 - face_recognition - INFO - Initializing face database...
+2025-08-14 11:27:49 - root - INFO - Loaded face database with 16 faces
+2025-08-14 11:27:49 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-14 11:27:49 - main - INFO - Setting up attendance logger...
+2025-08-14 11:27:49 - attendance_logger - INFO - No existing attendance file found, will create new one
+2025-08-14 11:27:49 - main - INFO - Connecting to camera 0...
+2025-08-14 11:27:49 - main - INFO - System initialized successfully!
+2025-08-14 11:27:49 - __main__ - INFO - Gradio interface initialized successfully
+2025-08-14 11:27:49 - root - ERROR - Error starting Gradio interface: EventListener._setup.<locals>.event_trigger() got an unexpected keyword argument 'every'
+Traceback (most recent call last):
+  File "/Data/Attendance AI/AI_Attendance/Gradio_interface.py", line 393, in main
+    demo, interface_obj = create_gradio_interface()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/Attendance AI/AI_Attendance/Gradio_interface.py", line 365, in create_gradio_interface
+    demo.load(
+TypeError: EventListener._setup.<locals>.event_trigger() got an unexpected keyword argument 'every'
+2025-08-14 11:27:50 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-14 11:30:51 - main - INFO - Initializing AI Attendance System...
+2025-08-14 11:30:51 - main - INFO - Loading face recognition models...
+2025-08-14 11:30:51 - face_recognition - INFO - Initializing face detection model...
+2025-08-14 11:30:51 - face_recognition - INFO - Initializing face recognition model...
+2025-08-14 11:30:51 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-14 11:30:51 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-14 11:30:51 - face_recognition - INFO - Models initialized successfully!
+2025-08-14 11:30:51 - face_recognition - INFO - Initializing face database...
+2025-08-14 11:30:51 - root - INFO - Loaded face database with 16 faces
+2025-08-14 11:30:51 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-14 11:30:51 - main - INFO - Setting up attendance logger...
+2025-08-14 11:30:51 - attendance_logger - INFO - Loaded 0 attendance records from today
+2025-08-14 11:30:51 - main - INFO - Connecting to camera 0...
+2025-08-14 11:30:52 - main - INFO - System initialized successfully!
+2025-08-14 11:30:52 - __main__ - INFO - Gradio interface initialized successfully
+2025-08-14 11:30:52 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-14 11:30:52 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-08-14 11:30:53 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-14 11:31:24 - attendance_logger - INFO - Logged attendance for Alif at 11:31:24
+2025-08-14 11:31:24 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-14 11:31:24 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Alif
+2025-08-14 11:31:37 - attendance_logger - INFO - Logged attendance for Binoy at 11:31:37
+2025-08-14 11:31:37 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-14 11:31:37 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Binoy
+2025-08-14 11:33:13 - main - INFO - Received signal 2, shutting down...
+2025-08-14 11:34:54 - main - INFO - Received signal 2, shutting down...
+2025-08-14 11:34:54 - main - INFO - Received signal 2, shutting down...
+2025-08-14 11:36:16 - main - INFO - Initializing AI Attendance System...
+2025-08-14 11:36:16 - main - INFO - Loading face recognition models...
+2025-08-14 11:36:16 - face_recognition - INFO - Initializing face detection model...
+2025-08-14 11:36:16 - face_recognition - INFO - Initializing face recognition model...
+2025-08-14 11:36:16 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-14 11:36:17 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-14 11:36:17 - face_recognition - INFO - Models initialized successfully!
+2025-08-14 11:36:17 - face_recognition - INFO - Initializing face database...
+2025-08-14 11:36:17 - root - INFO - Loaded face database with 16 faces
+2025-08-14 11:36:17 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-14 11:36:17 - main - INFO - Setting up attendance logger...
+2025-08-14 11:36:17 - attendance_logger - INFO - Loaded 2 attendance records from today
+2025-08-14 11:36:17 - main - INFO - Connecting to camera 0...
+2025-08-14 11:36:17 - main - INFO - System initialized successfully!
+2025-08-14 11:36:17 - __main__ - INFO - Gradio interface initialized successfully
+2025-08-14 11:36:17 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-14 11:36:17 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-08-14 11:36:18 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-14 11:49:15 - attendance_logger - INFO - Logged attendance for Eshtiaq at 11:49:15
+2025-08-14 11:49:15 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-14 11:49:15 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Eshtiaq
+2025-08-14 11:57:25 - main - INFO - Received signal 2, shutting down...
+2025-08-14 11:57:25 - main - INFO - Received signal 2, shutting down...
+2025-08-14 11:57:26 - main - INFO - Received signal 2, shutting down...
+2025-08-14 11:57:35 - main - INFO - Initializing AI Attendance System...
+2025-08-14 11:57:35 - main - INFO - Loading face recognition models...
+2025-08-14 11:57:35 - face_recognition - INFO - Initializing face detection model...
+2025-08-14 11:57:35 - face_recognition - INFO - Initializing face recognition model...
+2025-08-14 11:57:35 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-14 11:57:35 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-14 11:57:35 - face_recognition - INFO - Models initialized successfully!
+2025-08-14 11:57:35 - face_recognition - INFO - Initializing face database...
+2025-08-14 11:57:35 - root - INFO - Loaded face database with 16 faces
+2025-08-14 11:57:35 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-14 11:57:35 - main - INFO - Setting up attendance logger...
+2025-08-14 11:57:35 - attendance_logger - INFO - Loaded 3 attendance records from today
+2025-08-14 11:57:35 - main - INFO - Connecting to camera 0...
+2025-08-14 11:57:36 - main - INFO - System initialized successfully!
+2025-08-14 11:57:36 - __main__ - INFO - Gradio interface initialized successfully
+2025-08-14 11:57:36 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-14 11:57:36 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-08-14 11:57:37 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-14 12:00:15 - main - INFO - Received signal 2, shutting down...
+2025-08-14 12:00:36 - main - INFO - Initializing AI Attendance System...
+2025-08-14 12:00:36 - main - INFO - Loading face recognition models...
+2025-08-14 12:00:36 - face_recognition - INFO - Initializing face detection model...
+2025-08-14 12:00:36 - face_recognition - INFO - Initializing face recognition model...
+2025-08-14 12:00:36 - models.arcface - INFO - Initializing ArcFace model from ./weights/w600k_r50.onnx
+2025-08-14 12:00:36 - models.arcface - INFO - Successfully initialized face encoder from ./weights/w600k_r50.onnx (embedding size: 512)
+2025-08-14 12:00:36 - face_recognition - INFO - Models initialized successfully!
+2025-08-14 12:00:36 - face_recognition - INFO - Initializing face database...
+2025-08-14 12:00:36 - root - INFO - Loaded face database with 16 faces
+2025-08-14 12:00:36 - face_recognition - INFO - Loaded existing database with 16 faces
+2025-08-14 12:00:36 - main - INFO - Setting up attendance logger...
+2025-08-14 12:00:36 - attendance_logger - INFO - Loaded 3 attendance records from today
+2025-08-14 12:00:36 - main - INFO - Connecting to camera 0...
+2025-08-14 12:00:37 - main - INFO - System initialized successfully!
+2025-08-14 12:00:37 - __main__ - INFO - Gradio interface initialized successfully
+2025-08-14 12:00:37 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-14 12:00:37 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-08-14 12:00:38 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-14 12:01:41 - attendance_logger - INFO - Logged attendance for Shanta at 12:01:41
+2025-08-14 12:01:41 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-14 12:01:41 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Shanta
+2025-08-14 12:05:48 - face_recognition - INFO - Added Khalid to database
+2025-08-14 12:05:48 - root - INFO - Face database saved with 17 faces
+2025-08-14 12:05:48 - face_recognition - INFO - Face database saved successfully
+2025-08-14 12:05:48 - main - INFO - Successfully added Khalid to the system
+2025-08-14 12:05:48 - face_recognition - INFO - Building face database from images...
+2025-08-14 12:05:48 - face_recognition - INFO - Added Khalid to database
+2025-08-14 12:05:49 - face_recognition - INFO - Added Sohel to database
+2025-08-14 12:05:49 - face_recognition - INFO - Added Mahmuda to database
+2025-08-14 12:05:49 - face_recognition - INFO - Added Rifat to database
+2025-08-14 12:05:50 - face_recognition - INFO - Added Eshtiaq to database
+2025-08-14 12:05:50 - face_recognition - INFO - Added Sadhon to database
+2025-08-14 12:05:50 - face_recognition - INFO - Added Alif to database
+2025-08-14 12:05:51 - face_recognition - INFO - Added Fatiha to database
+2025-08-14 12:05:51 - face_recognition - INFO - Added Shanchita to database
+2025-08-14 12:05:51 - face_recognition - INFO - Added Anika to database
+2025-08-14 12:05:52 - face_recognition - INFO - Added Shanta to database
+2025-08-14 12:05:52 - face_recognition - INFO - Added Ridoy to database
+2025-08-14 12:05:53 - face_recognition - INFO - Added Rabiul to database
+2025-08-14 12:05:53 - face_recognition - INFO - Added Obaidul to database
+2025-08-14 12:05:54 - face_recognition - INFO - Added Binoy to database
+2025-08-14 12:05:54 - face_recognition - INFO - Added Shamol to database
+2025-08-14 12:05:54 - face_recognition - INFO - Added Tokon to database
+2025-08-14 12:05:54 - face_recognition - INFO - Added 17 faces to database
+2025-08-14 12:05:54 - root - INFO - Face database saved with 34 faces
+2025-08-14 12:05:54 - root - INFO - Face database saved with 34 faces
+2025-08-14 12:05:54 - face_recognition - INFO - Face database saved successfully
+2025-08-14 12:05:54 - __main__ - INFO - Added person Khalid via Gradio interface
+2025-08-14 12:06:14 - attendance_logger - INFO - Logged attendance for Khalid at 12:06:14
+2025-08-14 12:06:14 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-14 12:06:14 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Khalid
+2025-08-14 12:07:26 - face_recognition - INFO - Added Mursalin to database
+2025-08-14 12:07:26 - root - INFO - Face database saved with 35 faces
+2025-08-14 12:07:26 - face_recognition - INFO - Face database saved successfully
+2025-08-14 12:07:26 - main - INFO - Successfully added Mursalin to the system
+2025-08-14 12:07:26 - face_recognition - INFO - Building face database from images...
+2025-08-14 12:07:27 - attendance_logger - INFO - Logged attendance for Mursalin at 12:07:27
+2025-08-14 12:07:27 - attendance_logger - INFO - Saved 1 new attendance records to attendance.xlsx
+2025-08-14 12:07:27 - __main__ - INFO - ✓ ATTENDANCE LOGGED: Mursalin
+2025-08-14 12:07:27 - face_recognition - INFO - Added Khalid to database
+2025-08-14 12:07:27 - face_recognition - INFO - Added Sohel to database
+2025-08-14 12:07:28 - face_recognition - INFO - Added Mahmuda to database
+2025-08-14 12:07:28 - face_recognition - INFO - Added Rifat to database
+2025-08-14 12:07:29 - face_recognition - INFO - Added Eshtiaq to database
+2025-08-14 12:07:29 - face_recognition - INFO - Added Mursalin to database
+2025-08-14 12:07:30 - face_recognition - INFO - Added Sadhon to database
+2025-08-14 12:07:30 - face_recognition - INFO - Added Alif to database
+2025-08-14 12:07:31 - face_recognition - INFO - Added Fatiha to database
+2025-08-14 12:07:31 - face_recognition - INFO - Added Shanchita to database
+2025-08-14 12:07:32 - face_recognition - INFO - Added Anika to database
+2025-08-14 12:07:32 - face_recognition - INFO - Added Shanta to database
+2025-08-14 12:07:33 - face_recognition - INFO - Added Ridoy to database
+2025-08-14 12:07:33 - face_recognition - INFO - Added Rabiul to database
+2025-08-14 12:07:34 - face_recognition - INFO - Added Obaidul to database
+2025-08-14 12:07:34 - face_recognition - INFO - Added Binoy to database
+2025-08-14 12:07:35 - face_recognition - INFO - Added Shamol to database
+2025-08-14 12:07:35 - face_recognition - INFO - Added Tokon to database
+2025-08-14 12:07:35 - face_recognition - INFO - Added 18 faces to database
+2025-08-14 12:07:35 - root - INFO - Face database saved with 53 faces
+2025-08-14 12:07:35 - root - INFO - Face database saved with 53 faces
+2025-08-14 12:07:35 - face_recognition - INFO - Face database saved successfully
+2025-08-14 12:07:35 - __main__ - INFO - Added person Mursalin via Gradio interface
